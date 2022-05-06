@@ -3,7 +3,8 @@
   "license": "Unlicense",
   "scripts": {
     "hardhat-test": "npx hardhat test",
-    "prettier": "prettier --write \"./**/*.{sol,ts}\" --ignore-path \".gitignore\""
+    "prettier": "prettier --write \"./**/*.{sol,ts}\" --ignore-path \".gitignore\"",
+    "solhint-fix": "npx solhint 'contracts/**/*.sol' --fix"
   },
   "devDependencies": {
     "@nomiclabs/hardhat-ethers": "^2.0.5",
